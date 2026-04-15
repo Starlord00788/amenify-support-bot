@@ -1,0 +1,8 @@
+*.py
+requirements.txt
+scraper.py
+main.py
+.env
+data/
+venv/
+.venv/
