@@ -98,5 +98,5 @@ To eliminate hallucinations, I used a multi-layered approach:
 4. Upgrade to dense embedding models (`text-embedding-3-small`) paired with chunking algorithms like Semantic Chunking instead of pure line-by-line TF-IDF. 
 
 ---
-**Applicant:** Palash
+**Applicant:** Palash Singhal
 **LinkedIn:** [(https://www.linkedin.com/in/palash-singhal-299134293/)]
