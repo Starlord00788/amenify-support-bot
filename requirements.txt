@@ -6,3 +6,4 @@ requests
 numpy
 pydantic
 python-dotenv
+scikit-learn
