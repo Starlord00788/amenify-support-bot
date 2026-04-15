@@ -56,9 +56,15 @@ Hello! This project implements a fully functional, lightweight AI customer suppo
    ```
 
 ## Example Queries
-- Q: "What services does Amenify offer?" -> A: "Amenify provides..."
-- Q: "Who built Amenify?" -> A: "I don't know." (Since it may not be on the main page)
-- Q: "What is the capital of France?" -> A: "I don't know."
+
+**1. In-Knowledge Query:** *(Shows successful RAG retrieval from scraped Amenify data)*  
+![Query 1](screenshots/q1.png)
+
+**2. Anti-Hallucination Query:** *(Shows strict boundary constraint preventing non-Amenify answers)*  
+![Query 2](screenshots/q2.png)
+
+**3. Chat History & Context Query:** *(Shows memory retention across stateless REST API calls)*  
+![Query 3](screenshots/q3.png)
 
 
 ---
