@@ -1,12 +1,20 @@
 # Amenify Summer 2026 – Software Engineering Internship Assignment
 
+🌟 **Live Demo:** [https://starlord00788.github.io/amenify-support-bot/](https://starlord00788.github.io/amenify-support-bot/)
+
 Hello! This project implements a fully functional, lightweight AI customer support bot exclusively answering questions based on the content of amenify.com.
 
 **Important Note regarding "absolutely free" tier requirement:**
 1. **Embeddings/Vector Search**: Designed to be 100% free by using `scikit-learn`'s `TfidfVectorizer` and `cosine_similarity`. It runs locally and costs nothing, avoiding any need to pay for embedding APIs like `text-embedding-ada-002` or `cohere`.
-2. **Generative API**: The configuration file supports standard `OPENAI_API_KEY`. If you don't have OpenAI credits and want a 100% free external LLM API, you can seamlessly replace the OpenAI client initialization to point to Google's Gemini-compatible OpenAI API or Groq limits with zero code rewriting (both have great free tiers). 
+2. **Generative API**: The configuration file supports standard `OPENAI_API_KEY`. To ensure completely free, high-speed usage, the backend is configured to use Groq's OpenAI-compatible API running the `llama-3.3-70b-versatile` model. 
 
-## Setup Instructions
+## 🚀 Live Deployment
+- **Frontend:** Hosted statically on GitHub Pages.
+- **Backend API:** Hosted on Render.com (FastAPI).
+
+---
+
+## Local Setup Instructions
 
 1. **Clone and Enter Directory**
    ```bash
